@@ -4,8 +4,8 @@ import turtle
 from time import sleep
 
 creature = Creature()
-turtle.goto(0, 0)
 creature_gui = turtle.Turtle()
+creature_gui.goto(0, 0)
 creature_gui.shape("circle")
 creature_gui.forward(100)
 sleep(5)
